@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-contaner {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form {
+    
+    padding: 16px;
+    background: #acd6e4;
+}
+
+.contaner-line{
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.contaner-fristname {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.text-class {
+    border: none;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+}
+
+.label-class {
+    font-size: 14px;
+    padding-left: 5px;
+    font-family: sans-serif;
+
+}
+
+.select-class {
+    width: 20%;
+}
+
+.contaner-course {
+    display: inline;
+}
+
+.container-radio {
+    display: flex;
+    gap: 10px;
+}
+
+.container-radio-2 {
+    display: flex;
+}
+
+.radio-class {
+    font-size: 12px;
+    padding-left: 5px;
+    font-family: sans-serif;
+}
+
+.button {
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    
+}
+
+:placeholder-shown{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+}
